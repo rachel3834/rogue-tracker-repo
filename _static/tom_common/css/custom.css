@@ -1,0 +1,39 @@
+/*!
+ * Adapted from Bootstrap v4.6.2 (https://getbootstrap.com/)
+ * Set defaults for custom css
+ */
+:root {
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --rges-purple-light: #a658e1;
+    --rges-purple-dark: #3f2256;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #000;
+}
+
+a {
+    color: #007bff;
+    background-color: transparent;
+}
+
+a:hover {
+    color: var(--rges-purple-light);
+    text-decoration: underline;
+}
+
+.navbar-dark.bg-dark {
+  background-color: var(--rges-purple-dark) !important;
+}
+
